@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/aboutUs.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--<script src="js/main.js"></script>-->
+    <title>Homepage</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar-light">
+            <div class="navbar-brand">
+              <span>YTauheed</span>
+            </div>
+            <div class="Navbar-control">
+              <button class="Navbar-toggler ml-5" type="button">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div id="mainNav" class="Navbar">
+                <ul class="Navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">AboutUs</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <hr>
+    </header>
+    <section class="container pt-4">
+      <div class="row">
+        <div class="col-12">
+          <h5 class="text-center">Meet the Author</h5>
+          <center> <hr> </center>
+          <p class="paragraph text-center">
+            I'm am an artist, able to see the world in a unique 
+            way. I feel i have been given the gift to see beauty
+            in everything and everyone <!--because I'm sensitive, 
+            observant and very empathetic. notice the details 
+            other may be oblivious to wherever I go, such as a 
+            single ray of light shining through the clouds onto 
+            the mountain,--> which brings me peace.
+          </p>
+          <div class="d-flex justify-content-center">
+            <div class="card">
+              <img class="card-img" src="images/animals-11.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div id="marker" class="row">
+        <div class="col-12">
+          <h6 class="text-center text-white mt-5 pt-5">Total Photos</h6>
+          <h1 class="text-center text-white pt-2">0</h1>
+          <h6 class="text-center text-white pt-5">Collections</h6>
+          <h1 class="text-center text-white pt-2">0</h1>
+          <h6 class="text-center text-white pt-5">Team</h6>
+          <h1 class="text-center text-white pt-2">1</h1>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid py-5">
+      <div class="row">
+        <div class="col-12">
+          <nav>
+            <ul id="subNav" class="Navbar-nav text-center">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark">AboutUs</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark">Terms</a>
+              </li>
+              <li class="nav-item d-flex justify-content-center pt-1">
+                <span>
+                  <a href="#" class="nav-link">
+                    <img src="images/icons/instagram.svg" alt="">
+                  </a>
+                </span>
+                <span>
+                  <a href="#" class="nav-link">
+                    <img src="images/icons/whatsapp.svg" alt="">
+                  </a>
+                </span>
+                <span>
+                  <a href="#" class="nav-link">
+                    <img src="images/icons/twitter.svg" alt="">
+                  </a>
+                </span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script>
+      //Navbar script
+      var mainNav = document.getElementById("mainNav");
+     
+      $(".Navbar-toggler").click(function mainNavToggler() {
+        mainNav.classList.toggle('Navbar-expand');
+      });
+      
+      //Collection script
+      /*var firstItem = $(".second-collection").detach();
+      var secondItem = $(".third-collection").detach();*/
+      
+      var collection = [firstItem, secondItem];
+    </script>
+  </body>
+</html>

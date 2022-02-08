@@ -1,0 +1,48 @@
+/*About page*/
+
+.Navbar-expand{
+  height: 93px;
+  line-height: 15px;
+}
+
+header > hr{
+  position: relative; 
+  top: -10px;
+}
+
+section hr{
+  width: 30px; 
+  background-color: red; 
+  margin: 15px;
+}
+
+section p{
+  padding: 0px 49px;
+}
+
+.card{
+  width: 70%; 
+  z-index: 1; 
+  border-style: none; 
+  opacity: 0.9;
+  position: relative;
+  top: 20px;
+}
+
+section #marker{
+  height: 500px; 
+  background-color: gray; 
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 576px){
+  #mainNav{
+    background-color: gray; 
+    margin-top: 13px;
+    opacity: 0.7;
+  }
+  
+  .nav-item a{
+    color: white;
+  }
+}

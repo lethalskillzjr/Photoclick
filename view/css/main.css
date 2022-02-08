@@ -1,0 +1,281 @@
+/*GLOBAL*/
+*{
+  box-sizing: border-box;
+  background-color: ;
+}
+
+html{
+  font-size: 90%;
+  webkit-text-size-adjust: 100%;
+  ms-text-size-adjust: 100%;
+}
+
+body{
+  font-weight: 300;
+  font-family: Ubuntu, Oxygen;
+}
+
+h1, h2, h3,
+h4, h5, h6{
+  font-family: Raleway, Open San;
+  font-weight: 200;
+}
+
+.paragraph {
+  line-height: 25px;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.navbar-brand span{
+  font-size: 150%;
+  font-weight: 600;
+  font-family: 'East Sea Dokdo', cursive;
+  color: #6c757d;
+}
+
+.Navbar-toggler{
+  background-color: transparent;
+  border-style: none;
+  font-size: 70%;
+  outline: 0px;
+}
+
+.navbar-toggler-icon{
+  font-size: 150%;
+  font-weight: 900;
+}
+
+
+.Navbar-nav{
+  padding-left: 0px;
+  padding-bottom: 0px;
+  list-style: none;
+}
+
+.Navbar-nav a{
+  color: black;
+}
+
+@media screen and (max-width: 768px){
+  button:focus{
+    outline-style: none;
+  }
+  
+  .Navbar{
+    position: absolute;
+    margin-top: 5px;
+    background-color: white;
+    opacity: 0.5;
+    overflow: hidden;
+    height: 0px;
+    z-index: 1;
+    -webkit-transition: height 0.3s; 
+    -moz-transition: height 0.3s; 
+    -ms-transition: height 0.3s; 
+    -o-transition: height 0.3s; 
+    transition: height 0.3s;
+  }
+  
+  .Navbar-nav{
+    font-size: 85%;
+    margin: auto;
+    padding-bottom: 7.5px;
+    opacity: 1.0;
+  }
+ /* 
+  .Navbar-expand{
+    height: 100px;
+    line-height: 15px;
+  }
+ */ 
+  .modal-dialog{
+    position: relative;
+    left: 11%;
+  }
+
+}
+  
+@media screen and (min-width: 768px){
+  .Navbar-toggler{
+    display: none;
+  }
+  .Navbar-nav{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .space-around{
+    display: flex;
+    justify-content: space-around;
+  }
+  #subNav{
+    display: block;
+  }
+}
+
+/*Index page
+
+#mainCard .card-img{
+  opacity: 0.6;
+}
+
+collection{
+  display: block;
+  height: 100%;
+}
+
+.imgStack{
+  display: flex;
+  height: 230px;
+  width: 100%;
+  border-style: soli;
+  border-width: 1px;
+  border-color: #6c757d;
+  justify-content: center;
+}
+
+.stack-img{
+  width: 45%;
+  height: 85%;
+  border: solid 0px #a0a0a0;
+  border-radius: 3px;
+  align-items: flex-end;
+  box-shadow: 3px 2px 4px gray;
+}
+
+.imgStack > #first-img{
+  position: relative;
+  left: 50%;
+  align-self: flex-start;
+}
+
+.imgStack > #second-img{
+  position: relative;
+  align-self: center;
+  z-index: ;
+}
+
+.imgStack > #third-img{
+  position: relative;
+  left: -50%;
+  align-self: flex-end;
+}
+.carousel-indicators{
+  position: relative;
+  top: -10px;
+  background-color: transparent;
+}
+
+.carousel-indicators li{
+  background-color: grey;
+}
+
+.carousel-inner .btn{
+  border-style: none;
+}
+
+.modal, .modal-dialog{
+  background-color: transparent;
+}
+
+.modal-dialog{
+  width: 75%;
+}
+  
+.modal-body{
+  height: 420px;
+  overflow: hidden;
+}
+
+.modal-body img{
+  height: 210px;
+}
+
+.modal-body > p{
+  font-size: 90%;
+  height: 200px;
+  overflow: scroll;
+  text-align: justify;
+}
+/*
+.first-slide{
+  animation-name: slide-a;
+  animation-delay: 8s;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+.first-collection .imgStack:hover{
+  animation-play-state: paused;
+}
+
+@keyframes slide-a{
+  0%{transform: translateX(0%); opacity: 1.0;}
+  50%{opacity: 0;}
+  100%{transform: translateX(-40%); opacity: 0;}
+}
+
+.second-slide{
+  display: ;
+  animation-name: slide-b;
+  animation-delay: 10s;
+  animation-duration: 6.7s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+
+@keyframes slide-b{
+  0%{transform: translateX(40%);}
+  10%{display: flex; flex-wrap: wrap; opacity: 0;}
+  100%{transform: translateX(0%); opacity: 1;}
+}
+
+third-collection{
+  display: ;
+}
+
+.collection p{
+  animation-name: fadeOut;
+  animation-delay: 8s;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeOut{
+  0%{opacity: 1;}
+  100%{opacity: 0;}
+}
+
+.collectionIndicator{
+  display: inline-block;
+  border: solid 1px gray;
+  border-radius: 360px;
+  align-self: center;
+  width: 7px;
+  height: 7px;
+}
+
+#cardDeck .card{
+  width: 48.5%;
+  border-style: none;
+  height: 299px;
+  overflow: hidden;
+}
+
+.overflowNeeded{
+  height: 435px;
+  overflow: hidden;
+}
+*/
+
+

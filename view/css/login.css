@@ -1,0 +1,66 @@
+/*User authentication page*/
+
+.Navbar-expand{
+    height: 93px;
+    line-height: 15px;
+}
+
+@media screen and (max-width: 576px){
+  #mainNav{
+    background-color: #EBEBE4; 
+    margin-top: 22px;
+    opacity: 0.7;
+  }
+}
+
+.form-field{
+        display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+        position: absolute;
+        top: 40%;
+        -ms-transform: translateY(-40%);
+        transform: translateY(-40%);
+	z-index: ;
+}
+
+.input-field{
+	position: relative;
+	margin-top: 2rem;
+}
+
+.input-field input{
+	padding: 0.8rem;
+	border: solid 1px;
+	background-color: #EBEBE4
+}
+
+form .input-field:first-child{
+	margin-bottom: 1.5rem;
+}
+
+form .input-firstChild{
+	background-color: #FFFFFF;
+}
+
+form button[type="submit"]{
+	background-color: #5AAAFF;
+	color: white;
+	border-radius: 2px;
+	margin-top: 2rem;
+	padding: 0.8rem;
+}
+
+footer{
+        position: absolute;
+        top: 100%;
+        -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+}

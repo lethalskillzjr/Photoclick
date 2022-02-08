@@ -1,0 +1,216 @@
+/*Index page*/
+
+.Navbar-expand{
+  height: 120px;
+  line-height: 15px;
+}
+
+#mainCard .card-img{
+  opacity: 0.6;
+}
+/*
+div.modal-body{
+  height: 440px;
+  overflow: scroll;
+}
+*/
+select, input{
+  width: 100%;
+  height: px;
+  border: solid 1px #f0f0f0; 
+  border-radius: 2px;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 8px;
+  font-weight: 300;
+}
+
+div.modal-body .carousel-item{
+  background-color: #f0f0f0;
+  padding: 0px 5px;
+}
+/*
+div.modal-body .carousel-item div{
+  margin: 0px 15px;
+}
+*/
+div.modal-body .carousel-item img{
+  border: solid 16px;
+  padding: 12px;
+  background-color: white;
+}
+
+.first-collection .stack-img{
+  border: solid 13px;
+  padding: 12px;
+}
+
+.second-collection .stack-img{
+  border: solid 13px;
+  padding: 12px;
+}
+
+.third-collection .stack-img{
+  border: solid 13px;
+  padding: 12px;
+}
+
+.imgStack{
+  display: flex;
+  height: 230px;
+  width: 100%;
+  border-style: soli;
+  border-width: 1px;
+  border-color: #6c757d;
+  justify-content: center;
+}
+
+.stack-img{
+  width: 45%;
+  height: 85%;
+  background-color: white;
+  border: solid 0px #a0a0a0;
+  border-radius: 3px;
+  align-items: flex-end;
+  box-shadow: 3px 2px 4px gray;
+}
+
+.imgStack > #first-img{
+  position: relative;
+  left: 58%;
+  align-self: flex-start;
+}
+
+.imgStack > #second-img{
+  position: relative;
+  align-self: center;
+  overflow: ;
+  z-index: ;
+}
+
+.imgStack > #third-img{
+  position: relative;
+  left: -58%;
+  align-self: flex-end;
+}
+.carousel-indicators{
+  position: relative;
+  top: -10px;
+  background-color: transparent;
+}
+
+.carousel-indicators li{
+  background-color: grey;
+}
+
+.carousel-inner .btn{
+  border-style: none;
+}
+
+.modal, .modal-dialog{
+  background-color: transparent;
+}
+
+.modal-dialog{
+  width: 75%;
+}
+  
+.modal-body{
+  height: 440px;
+  overflow: scroll;
+}
+
+.modal-body img{
+  height: 210px;
+}
+/*
+.modal-body > p{
+  font-size: 90%;
+  height: 200px;
+  overflow: scroll;
+  text-align: justify;
+}
+
+.first-slide{
+  animation-name: slide-a;
+  animation-delay: 8s;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+.first-collection .imgStack:hover{
+  animation-play-state: paused;
+}
+
+@keyframes slide-a{
+  0%{transform: translateX(0%); opacity: 1.0;}
+  50%{opacity: 0;}
+  100%{transform: translateX(-40%); opacity: 0;}
+}
+
+.second-slide{
+  display: ;
+  animation-name: slide-b;
+  animation-delay: 10s;
+  animation-duration: 6.7s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+
+@keyframes slide-b{
+  0%{transform: translateX(40%);}
+  10%{display: flex; flex-wrap: wrap; opacity: 0;}
+  100%{transform: translateX(0%); opacity: 1;}
+}
+
+third-collection{
+  display: ;
+}
+
+.collection p{
+  animation-name: fadeOut;
+  animation-delay: 8s;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeOut{
+  0%{opacity: 1;}
+  100%{opacity: 0;}
+}
+*/
+.collectionIndicator{
+  display: inline-block;
+  border: solid 1px gray;
+  border-radius: 360px;
+  align-self: center;
+  width: 7px;
+  height: 7px;
+}
+
+#cardDeck .card{
+  width: 48.5%;
+  border-style: none;
+  height: 299px;
+  overflow: hidden;
+}
+
+.overflowNeeded{
+  height: 435px;
+  overflow: hidden;
+}
+
+.equalMargingPadding{
+  margin-left: 1px;
+  margin-right: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
